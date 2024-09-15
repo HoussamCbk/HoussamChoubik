@@ -1,6 +1,8 @@
+import { withSentryConfig } from '@sentry/nextjs';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // Remove `output: "export"` to allow dynamic content
+    // No need for `output: "export"` here unless static-only build is required
 };
 
 const sentryWebpackPluginOptions = {
