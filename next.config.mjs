@@ -4,6 +4,8 @@ const nextConfig = {
     output: "export",
 };
 
+module.exports = NextConfig;
+
 export default withSentryConfig(nextConfig, {
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
